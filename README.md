@@ -13,8 +13,8 @@ npm install --save pixiv-login
 const pixivLogin = require('pixiv-login');
 
 pixivLogin({
-    username: '948931744@qq.com',
-    password: 'tcrose10307'
+    username: 'your uesrname',
+    password: 'your password'
 }).then((cookie) => {
     console.log(cookie);
 }).catch((error) => {
