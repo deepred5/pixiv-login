@@ -18,7 +18,7 @@ const pixivLogin = ({ username, password }) => {
         }).then((response) => {
             const $ = cheerio.load(response.data);
             const post_key = $('input[name="post_key"]').val();
-            const cookie = response.headers['set-cookie'].join(' ;');
+            const cookie = response.headers['set-cookie'].join('; ');
 
             if (post_key) {
                 return { post_key, cookie };
