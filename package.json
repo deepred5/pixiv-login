@@ -1,7 +1,7 @@
 {
   "name": "pixiv-login",
-  "version": "1.1.2",
-  "description": "pixiv",
+  "version": "1.2.0",
+  "description": "get pixiv cookie",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
