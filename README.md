@@ -1,10 +1,10 @@
 # pixiv-login
-[![npm version](https://img.shields.io/badge/npm-1.0.0-brightgreen.svg)](https://www.npmjs.com/package/pixiv-login)
+[![npm version](https://img.shields.io/badge/npm-1.1.2-brightgreen.svg)](https://www.npmjs.com/package/pixiv-login)
 
 爬虫模拟Pixiv登录，获取cookie
 
 ## Install
-```
+```javascript
 npm install --save pixiv-login
 ```
 

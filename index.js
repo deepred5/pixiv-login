@@ -20,10 +20,10 @@ const pixivLogin = ({ username, password }) => {
             const post_key = $('input[name="post_key"]').val();
             const cookie = response.headers['set-cookie'].join('; ');
 
-            if (post_key) {
+            if (post_key && cookie) {
                 return { post_key, cookie };
             }
-            reject(new Error('no post_key'));
+            reject(new Error('no post_key or cookie'));
         }).catch((error) => {
             reject(error);
         });
